@@ -1,0 +1,14 @@
+h1{color :red;}
+
+p{font-weight: bold;}
+
+.box{
+    color: rgb(70, 70, 117);
+ }
+
+ .login_box{
+    color: blue;
+    background-color:red;
+    cursor:pointer;
+    border-radius: 10px;
+}
