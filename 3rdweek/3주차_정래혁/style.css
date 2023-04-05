@@ -1,0 +1,19 @@
+h1{
+    color :rgb(72, 6, 19);
+}
+
+p{
+    color :rgb(26, 148, 148);
+}
+
+.box{
+    color:rgb(96, 68, 122);
+}
+
+.login_box{
+    color: rgb(117, 55, 11);
+    background-color: bisque;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
