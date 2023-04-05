@@ -1,0 +1,18 @@
+* {
+    color: grey;
+}
+h1 {
+    color: royalblue;
+}
+p {
+    font-weight: bold;
+}
+.box {
+    color:brown;
+}
+.login_box {
+    color: aliceblue;
+    background-color: darkmagenta;
+    cursor: pointer;
+    border-radius: 15px;
+}
