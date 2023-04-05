@@ -1,0 +1,17 @@
+h1{
+    color : red;
+}
+p{
+    font-weight: bold;
+}
+
+.box{
+    color:brown;
+}
+
+.login_box{
+    color: blueviolet;
+    background-color: yellow;
+    cursor: pointer;
+    border-radius: 100px;
+}
