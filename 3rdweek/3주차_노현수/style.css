@@ -1,0 +1,17 @@
+h1 {
+  color: darkgoldenrod;
+}
+p {
+  font-weight: bold;
+}
+.box {
+  color: darkblue;
+  font-weight: bold;
+  background-color: yellowgreen;
+}
+.login_box {
+  color: ivory;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 120px;
+}
