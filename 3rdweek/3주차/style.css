@@ -1,18 +1,17 @@
 h1 {
-  color: aqua;
+    color: aqua;
 }
 
-p {
-  font-weight: bold;
+p{
+    font-weight:bold;
 }
 
-.box {
-  color: purple;
+.box{
+    color:purple;
 }
 
-.login_box {
-  color: blueviolet;
-  background-color: yellow;
-  cursor: pointer;
-  border-radius: 30px;
+.login_box{
+    color:blueviolet;
+    background-color: yellow;
+    border-radius: 30px;
 }
