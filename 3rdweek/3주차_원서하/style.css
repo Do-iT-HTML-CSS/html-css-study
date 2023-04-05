@@ -1,0 +1,18 @@
+h1 {
+    color:fuchsia;
+}
+
+p {
+    font-weight: bold;
+}
+
+.box {
+    color:hotpink;
+}
+
+.login_box {
+    color:cadetblue;
+    background-color:azure;
+    cursor: pointer;
+    border-radius: 20px;
+}
