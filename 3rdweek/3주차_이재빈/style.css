@@ -1,0 +1,15 @@
+h1{
+    color: red;
+}
+p{
+    color: blue;
+}
+.box{
+    color:aqua;
+}
+.login_box{
+    color:azure;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: crimson;
+}
