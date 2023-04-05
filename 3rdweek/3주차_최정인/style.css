@@ -1,0 +1,19 @@
+h1 {
+    color: aqua;
+    font-weight: lighter;
+}
+
+p {
+    font-weight: bolder;
+}
+
+.box {
+    color:cadetblue;
+}
+
+.login_box {
+    color: gray;
+    background-color: rgb(180, 204, 132);
+    cursor: pointer;
+    border-radius: 30px;
+}
