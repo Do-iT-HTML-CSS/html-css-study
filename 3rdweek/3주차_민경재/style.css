@@ -1,0 +1,19 @@
+h1 {
+    color: aqua
+}
+
+p {
+    font-weight: bold;
+}
+
+.box {
+    color: purple
+}
+
+
+.login_box {
+    color: black;
+    background-color: yellowgreen;
+    cursor: pointer;
+    border-radius: 30px;
+}
