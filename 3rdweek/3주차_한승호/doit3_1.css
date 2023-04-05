@@ -1,0 +1,18 @@
+body{
+    background-color:skyblue;
+    color : blueviolet;
+    line-height:40px;
+}
+.box{
+    background-color:rosybrown;
+    color : white;
+    border-width:2px;
+    border-color : brown;
+    border-style : dotted;
+}
+.login_box{
+    color: blueviolet;
+    background-color:aquamarine;
+    cursor : pointer;
+    border-radius:15px;
+}
