@@ -1,0 +1,22 @@
+h1 {
+    color: skyblue;
+}
+
+p {
+    color: green;
+}
+
+p {
+    font-weight: bold;
+}
+
+.box {
+    color: purple;
+}
+
+.login_box {
+    color: black;
+    background-color: yellowgreen;
+    cursor: pointer;
+    border-radius: 5px;
+}
