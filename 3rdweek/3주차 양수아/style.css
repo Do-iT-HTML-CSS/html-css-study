@@ -1,0 +1,19 @@
+h1 {
+    color:navy;
+}
+
+p {
+    font-weight: bold;
+    color:cornflowerblue;
+}
+
+.box {
+    color:cadetblue;
+}
+
+.login_box {
+    color:darkblue;
+    background-color:cadetblue;
+    cursor: pointer;
+    border-radius: 5px;
+}
