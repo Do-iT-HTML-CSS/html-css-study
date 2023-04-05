@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+}
+
+p {
+    font-weight: 100;
+    color: blue;
+}
+
+.box {
+    color:purple;
+}
+
+.login_box {
+    color: blueviolet;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
