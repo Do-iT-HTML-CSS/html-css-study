@@ -1,0 +1,49 @@
+.box{
+    width: 585.67px;
+    height: 256px;
+    border: 1px solid red;
+}
+
+.media_box{
+    width: 585.67px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.news_box{
+    display: flex;
+    width: 585.67px;
+    height: 200px;
+    margin-top: 9px;
+    border: 1px solid purple;
+}
+
+.main_news{
+    width: 196px;
+    height: 186px;
+    margin: 7px 24px 0 0;
+}
+
+.sub_news{
+    width: 317.67px;
+    height: 160px;
+    border: 1px solid blue;
+}
+
+.time {
+    width: 118.25px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    border: grey;
+}
+
+p{
+    font-size: 12;
+    border: #202020;
+}
+
+ul {
+    font-size: 12;
+    border: #202020;
+}
