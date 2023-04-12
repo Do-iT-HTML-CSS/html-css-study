@@ -1,0 +1,39 @@
+/*.box {
+  width: 596px;
+  height: 246px;
+  border: 1px solid red;
+}*/
+.media_box {
+  width: 596px;
+  height: 38px;
+  border: 1px solid red;
+}
+.news_box {
+  width: 596px;
+  height: 208px;
+  border: 1px solid yellow;
+  margin-top: 5px;
+}
+
+.tag {
+  display: flex;
+}
+.image {
+  width: 130.4px;
+  height: 90px;
+  border: 1px solid purple;
+  margin-top: 0;
+  margin-left: 1px;
+}
+.main_news {
+  width: 447px;
+  height: 90px;
+  border: 1px solid black;
+  margin-top: 0;
+  margin-left: 16px;
+}
+.sub_news {
+  width: 480.087px;
+  height: 28px;
+  border: 1px solid brown;
+}
