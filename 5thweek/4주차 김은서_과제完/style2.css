@@ -1,0 +1,60 @@
+.box {
+width: 537.4px;
+height: 222px;
+border: 1px solid red;
+}
+
+.media_box {
+width: 537.4px;
+height: 20px;
+border: 1px solid black;
+    }
+
+.news_box {
+    display: flex; 
+/* display: flex-column; 을 해주면 박스안에 두 개가 생성됨?  */
+    width: 537.4px;
+    height: 193px;
+    margin-top: 9px;
+    border: 1px solid purple;
+}
+
+.main_news {
+    width: 196px;
+    height: 186px;
+    margin-top: 7px;
+    margin-right: 24px;
+    border: 1px solid orange;
+}
+
+.sub_news {
+    width: 305.4px;
+    height: 184px;
+    padding-right: 12px;
+    border: 1px solid salmon;
+}
+
+.item {
+    width: 118.25px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #808080;
+}
+
+.p {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #202020;
+  font-weight: 700;
+}
+
+.p2 {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #202020;
+  font-weight: 700;
+}
+/* 4주차 관련 실습 1번 완료 겉 테두리 */
+/* 뉴스 박스안에 메인 뉴스와 서브 뉴스가 있음 이번에는 그걸 제작할 것임*/
+
