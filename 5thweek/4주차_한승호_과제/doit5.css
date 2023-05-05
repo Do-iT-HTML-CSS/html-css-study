@@ -1,0 +1,136 @@
+#start{
+    justify-content :space-between;
+    flex-direction : row;
+    display : flex;
+    width : 1520px;
+    height : 56px;
+    align-items : center;
+}
+.i{
+    margin : 8px 8px 16px;
+    width :24px;
+    height : 24px;
+}
+.o{
+    width :120px;
+    height : 56px;
+}
+#search{
+    width :572px;
+    height : 40px;
+}
+.a{
+    width : 520px;
+    height : 40px;
+    border : 1px solid black;
+    border-radius : 30px;
+    align-items : center;
+    justify-content : space-between;
+    display : flex;
+    padding-left : 20px;
+    
+}
+.b{
+    width : 64px;
+    height :40px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.c{
+    width : 40px;
+    height : 40px;
+    border-radius : 50%;
+}
+#container{ 
+    display : flex;
+}
+.d{
+    color : #3ea6ff;
+    border : 1px solid #3ea6ff;
+    width : 96px;
+    height : 34.4;
+    border-radius : 20px;
+    display : flex;
+    align-items: center;
+}
+.e{
+    display : flex;
+    align-items: center;
+}
+.f{
+    width : 204px;
+    height : 40px;
+    border-radius : 10px;
+    display : flex;
+    align-items : center;
+    justify-content :flex-start;
+}
+.g{
+    width : 40px;
+    height : 40px;
+    margin-right : 20px;
+}
+.p{
+    padding : 12px;
+    border-bottom: 1px solid black
+}
+.h{
+    width : 240px;
+    height :140px;
+    border-radius : 10px;
+    display : flex;
+    align-items : center;
+    justify-content :flex-start;
+    word-break:break-all;
+    flex-direction : column;
+}
+.span{
+    margin-bottom : 30px;
+}
+#center{
+    display : flex;
+    flex-direction : row;
+}
+.banner{
+    width : 1280px;
+    height : 260px;
+}
+.cimage{
+    width : 360px;
+    height : 202px;
+    border : 1px solid greenyellow;
+    border-radius : 5px;
+}
+.content{
+    margin : 60px;
+    display:flex;
+    flex-direction :row;
+
+}
+.ccomment{
+    width:360px;
+    height : 100px;
+    align-items: flex-start;
+    display : flex;
+    flex-direction : column;
+}
+.cusers{
+    width : 36px;
+    height : 36px;
+    border-radius : 50%;
+}
+.subcomment{
+    color : gray;
+}
+.one{margin-right:10px;
+    display : flex;
+    flex-direction : column;
+}
+.h4{
+    height : 44px;
+}
+.comment{
+    display : flex;
+    align-items : start;
+    height : 50px;
+}
