@@ -1,0 +1,99 @@
+.header_wrapper {
+    width:1130px;
+    height:160px;
+    border:1px solid red;
+    margin: 0 auto;
+}
+.gnb {
+    width: 1190px;
+    height: 52px;
+    border: 1px solid orange;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1190px;
+    height: 2857.5px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.service_area_wrapper {
+    display: flex;
+    justify-content: flex-end;
+    width:1130px;
+    height:23px;
+    margin-bottom:10px;
+    border:1px solid aqua;
+}
+
+.service_area {
+    display: flex;
+    width: 254.31px;
+    height: 23px;
+    border: 1px solid purple;
+    font-size: 11px;
+    color: #404040;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+
+.service_area_1 {
+    width: 127.31px;
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid purple;
+}
+
+.service_area_1::after {
+    background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_947f65.png);
+    -webkit-background-size: 442px 428px;
+    background-size: 442px 428px;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background-position: -382px -213px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+    margin-left:3px;
+    
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border:1px solid royalblue;
+    
+
+}
+
+.logo {
+    width:222px;
+    height:52px;
+    margin-right: 20px;
+    border: 1px solid blue;
+}
+
+
+.logo {
+    background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_947f65.png);
+    -webkit-background-size: 442px 428px;
+    background-size: 442px 428px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 222px;
+    height: 52px;
+    background-position: 0 -158px;
+    vertical-align: top;
+    content: '';
+}
+
+
+.search_bar {
+width:586px;
+height:52px;
+border: 2px solid #19ce60;
+border-radius: 2px;
+}
+
