@@ -6,28 +6,32 @@
 }
 
 .gnb {
-    width: 1190px;
-    height: 52px;
-    margin: 0 auto;
+    display: flex;
+    width: 1450px;
+    height: 50px;
+    margin-bottom: 15px;
+    padding-top:13px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 
 }
 
 .container {
     display: flex;
     width: 1190px;
-    height: 2857.5px;
+    height: 500px;
   
     margin: 0 auto;
 }
 
 .left_container {
     width: 860px;
-    height:2857.5px;
+    height: 500px;
 
 }
 .right_container {
     width: 330px;
-    height: 2957.5px;
+    height: 500px;
 }
 
 .service_area_wrapper {
@@ -115,10 +119,12 @@ border-radius: 2px;
 
 .item {
     display: flex;
+    margin-left:50px;
     justify-content: space-between;
     align-items: center;
     font-size: 17px;
     font-weight: bold;
+    
   }
 .item ul > li {
     display: inline-block;
@@ -127,6 +133,46 @@ border-radius: 2px;
 .item ul > li:nth-child(-n + 7) > a { 
     color: #19ce60;
 }
+
+.weather {
+    display: flex;
+    margin-left:110px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+.temp1 {
+    padding-top:1px;
+    margin-left:8px;
+    margin-right:1px;
+    font-size: 13px;
+    color: blue;
+}
+.temp2 {
+    padding-top:1px;
+    margin-left:1px;
+    color: red;
+    font-size:13px;
+}
+.address {
+    margin-left:8px;
+    font-size: 14px;
+    color: #808080;
+}
+.weather::before{
+    content: "";
+    display: block;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_weather.11654bc0.png);
+    background-size: 641px 587px;
+    background-position: -165px -522px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    margin-bottom:15px;
+    margin-right:5px;
+}
+
 
 
 
@@ -337,7 +383,7 @@ border-radius: 2px;
 
 }
 .big_box::after {
-    margin-top: 80px;
+    margin-top: 90px;
     background-image: url(https://s.pstatic.net/static/www/img/uit/sp_main_947f65.png);
     -webkit-background-size: 442px 428px;
     background-size: 442px 428px;
