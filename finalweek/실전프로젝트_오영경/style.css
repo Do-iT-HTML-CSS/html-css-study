@@ -1,0 +1,1665 @@
+.header_wrapper {
+    width:1280px;
+    height:262px;
+    margin: 0 auto;
+}
+
+.top_search_wrapper{
+    z-index: 120;
+    position: relative;
+    height: 156px;
+    padding: 64px 0 42px;
+}
+
+.special_logo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -10;
+    overflow: hidden;
+    height: 261px;
+}
+
+.search_area{
+    position: absolute;
+    top: 64px;
+    left: 50%;
+    z-index: 10;
+    width: 706px;
+    height:60px;
+    border: 1px solid #03c75a;
+    border-radius: 33px;
+    background-color: #fff;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.special_logo_input{
+    position: absolute;
+    width: 80px;
+    height: 58px;
+    top: 0;
+    left: 0;
+}
+
+.link_logo{
+    position: absolute;
+    display: block;
+    margin-left: 7px;
+}
+
+.search_box{
+    width:56px;
+    height:58px;
+    position: absolute;
+    top: 0;
+    right: 61px;
+    bottom: 0;
+}
+
+.keyboard{
+    padding: 21px 3px;
+}
+
+.keyboard_icon{
+    display: block;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -270px -234px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 16px;
+}
+
+.arrow{
+    position: absolute;
+    top: 0;
+    right: 1px;
+    padding: 26px 6px;
+}
+
+.arrow_icon{
+    display: block;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -412px -313px;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 6px;
+}
+
+.submit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 17px 27px 16px 10px;
+}
+
+.submit_icon{
+    display: block;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -364px -132px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.top_menu{
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    padding: 10px;
+}
+
+.top_menu_icon{
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -335px -284px;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+}
+
+.naver_pay{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    padding: 10px 18px;
+}
+
+.naver_pay_icon{
+    display: block;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -31px -316px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 26px;
+    position: relative;
+}
+
+.notify{
+    position: absolute;
+    top: 18px;
+    right: -10px;
+    width: 46px;
+}
+
+.notify_icon{
+    display: block;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -364px -27px;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    position: relative;
+}
+
+.new_image{
+    position: absolute;
+    left: 1000px;
+}
+
+.short_cut_area{
+    position: relative;
+    width: 676px;
+    margin: 72px auto 0;
+}
+
+.short_cut_list{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.mail{
+    position: relative;
+    width: 64px;
+    right: 30px;
+}
+
+.mail_background{
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+}
+
+.mail_icon{
+    position: relative;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -250px -90px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    top: 3px;
+    
+}
+
+.service_name_mail{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    margin-top: 7px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    top: 55px;
+    right: 8px;   
+}
+
+.cafe{
+    position: absolute;
+    width: 64px;
+    left: 67px;
+    top: 0px;
+
+}
+
+.cafe_background{
+    margin-left: 12px;
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+}
+
+.cafe_icon{
+    position: relative;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -250px 0px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    top: 3px;
+}
+
+.service_name_cafe{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    margin-top: 7px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    top: 47px;
+    left: 5px;
+}
+
+.blog{
+    position: absolute;
+    width: 64px;
+    left: 134px;
+    top: 0px;
+}
+
+.blog_background{
+    margin-left: 12px;
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+}
+
+.blog_icon{
+    position: relative;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -201px -98px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    top: 3px;
+}
+
+.service_name_blog{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    margin-top: 7px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    top: 47px;
+    left: 5px;
+}
+
+.shopping{
+    position: absolute;
+    width: 64px;
+    left: 201px;
+    top: 0px;
+}
+
+.shopping_background{
+    margin-left: 12px;
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+}
+
+.shopping_icon{
+    position: relative;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -90px -209px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    top: 3px;
+}
+
+.service_name_shopping{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    margin-top: 7px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    top: 47px;
+    left: 5px;
+}
+
+.news{
+    position: absolute;
+    width: 64px;
+    left: 268px;
+    top: 0px;
+}
+
+.news_background{
+    margin-left: 12px;
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+}
+
+.news_icon{
+    position: relative;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: 0px -209px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    top: 3px;
+}
+
+.service_name_news{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    margin-top: 7px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    top: 4px;
+    left: 2px;
+}
+
+.finance{
+    position: absolute;
+    width: 64px;
+    left: 67px;
+    top: 0px;
+}
+
+.finance_background{
+    margin-left: 12px;
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+}
+
+.finance_icon{
+    position: relative;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -180px -209px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    top: 3px;
+}
+
+.service_name_finance{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    margin-top: 7px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    top: 47px;
+    left: 5px;
+}
+
+.land{
+    position: absolute;
+    width: 64px;
+    left: 134px;
+    top: 0px;
+}
+
+.land_background{
+    margin-left: 12px;
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+}
+
+.land_icon{
+    position: relative;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -45px -209px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    top: 3px;
+}
+
+.service_name_land{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    margin-top: 7px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    top: 47px;
+    left: 5px;
+}
+
+.map{
+    position: absolute;
+    width: 64px;
+    left: 201px;
+    top: 0px;
+}
+
+.map_background{
+    margin-left: 12px;
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+}
+
+.map_icon{
+    position: relative;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -201px 0px;
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    top: 3px;
+}
+
+.service_name_map{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    margin-top: 7px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    top: 47px;
+    left: 5px;
+}
+
+.webtoon{
+    position: absolute;
+    width: 64px;
+    left: 268px;
+    top: 0px;
+}
+
+.webtoon_background{
+    margin-left: 12px;
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+}
+
+.webtoon_icon{
+    position: relative;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -225px -209px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    top: 3px;
+}
+
+.service_name_webtoon{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    margin-top: 7px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    top: 47px;
+    left: 5px;
+}
+
+.more_menu{
+    position: absolute;
+    width: 64px;
+    left: 335px;
+    top: 0px;
+}
+
+.more_menu_background{
+    margin-left: 12px;
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+}
+
+.more_menu_icon{
+    position: relative;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -250px -135px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    top: 3px;
+}
+
+.container{
+    margin: 0 auto;
+    position: relative;
+    width: 1280px;
+    height: 2598px;
+    padding-bottom: 60px;
+}
+
+.root{
+    position: absolute;
+    width: 1280px;
+    height: 2538px;
+}
+
+.left_side{
+    float: left;
+    width: 830px;
+    height: 2538px;
+}
+
+.ad{
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    width:830px;
+    height: 130px;
+    border-radius: 8px;
+}
+
+.news_stand{
+    margin-top: 16px;
+    background-color: var(--color_block_bg);
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px #e3e5e8, 0 1px 2px 0 rgba(0,0,0,.04);
+    box-sizing: border-box;
+    width:830px;
+    height:426px;
+    top: 130px;
+}
+
+.news_header{
+    display: flex;
+    padding: 18px 20px 17px;
+}
+
+.news_module{
+    width: 790px;
+    height:23px;
+    font-family: "맑은 고딕";
+    font-weight: 500;
+    letter-spacing: -0.4px;
+}
+
+.news_stand_menu{
+    position: absolute;
+    display: inline-block;
+    line-height: 23px;
+    font-weight: 800;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16.8px;
+    letter-spacing: -0.4px;
+}
+
+.news_stand_check{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: #d3d5d7;
+    margin: 9px 7px 0;
+    border-radius: 50%;
+    left: 100px;
+}
+
+.news_stand_editing{
+    position: absolute;
+    display: inline-block;
+    line-height: 23px;
+    font-weight: 800;
+    vertical-align: top;
+    color: #d3d5d7;
+    -webkit-font-smoothing: antialiased;
+    left: 115px;
+    font-size: 16.8px;
+    letter-spacing: -0.4px;
+}
+
+.news_stand_enter{
+    position: absolute;
+    display: inline-block;
+    line-height: 23px;
+    font-weight: 800;
+    vertical-align: top;
+    color: #d3d5d7;
+    -webkit-font-smoothing: antialiased;
+    left: 225px;
+    font-size: 16.8px;
+    letter-spacing: -0.4px;
+}
+
+.news_stand_sports{
+    position: absolute;
+    display: inline-block;
+    line-height: 23px;
+    font-weight: 800;
+    vertical-align: top;
+    color: #d3d5d7;
+    -webkit-font-smoothing: antialiased;
+    left: 290px;
+    font-size: 16.8px;
+    letter-spacing: -0.4px;
+}
+
+.news_stand_economy{
+    position: absolute;
+    display: inline-block;
+    line-height: 23px;
+    font-weight: 800;
+    vertical-align: top;
+    color: #d3d5d7;
+    -webkit-font-smoothing: antialiased;
+    left: 370px;
+    font-size: 16.8px;
+    letter-spacing: -0.4px;
+}
+
+.news_stand_bar1{
+    position: absolute;
+    left: 210px;
+    width: 1px;
+    height: 15px;
+    color: #d3d5d7;
+    background-color: var(--color_dot_divider);
+    -webkit-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+}
+
+.news_stand_bar2{
+    position: absolute;
+    left: 275px;
+    width: 1px;
+    height: 15px;
+    color: #d3d5d7;
+    background-color: var(--color_dot_divider);
+    -webkit-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+}
+
+.news_stand_bar3{
+    position: absolute;
+    left: 355px;
+    width: 1px;
+    height: 15px;
+    color: #d3d5d7;
+    background-color: var(--color_dot_divider);
+    -webkit-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+}
+
+.subscribe_news{
+    background-color: #f5f7f8;
+    position: relative;
+    display: flex;
+    margin: 0 20px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    line-height: 26px;
+    font-size: 14.7px;
+    letter-spacing: -0.4px;
+}
+
+.subscribe_arrow{
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -412px -327px;
+    background-repeat: no-repeat;
+    width: 9px;
+    height: 6px;
+    display: inline-block;
+    margin: 10px 0 0 5px;
+    vertical-align: top;
+}
+
+.subscribe_bar{
+    color: #d3d5d7;
+    position: relative;
+    left: 10px;
+}
+
+.news_company{
+    position: relative;
+    left: 20px;
+}
+
+.news_circle{
+    position: relative;
+    width: 4px;
+    height: 4px;
+    background-color: #d3d5d7;
+    margin: 9px 7px 0;
+    border-radius: 50%;
+    left: 20px;
+    top: 2px;
+}
+
+.news_title{
+    position: relative;
+    left: 22px;
+}
+
+.news_box{
+    position: relative;
+    display: flex;
+    margin: 18px 20px 18px 20px;
+}
+
+.subscribe_contents{
+    position: relative;
+    width: 150px;
+    height: 224px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.subscribe_box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+}
+
+.subscribe_chart{
+    height: 173px;
+}
+
+.my_subscribe{
+    margin: 0 0 2px 0;
+    height: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px 0 rgba(58,103,234,.24);
+    background-color: #3a67ea;
+}
+
+.korean_economy{
+    display: block;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    line-height: 20px;
+    left: 15px;
+    top: 14px;
+    font-size: 14.7px;
+    letter-spacing: -0.4px;
+}
+
+.news_arrow{
+    position: absolute;
+    top: 21px;
+    right: 21px;
+    width: 6px;
+    height: 6px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border: 2px solid;
+    border-width: 2px 2px 0 0;
+    opacity: .6;
+    color: #fff;
+}
+
+.subscribing{
+    color: #606060;
+    position: relative;
+    padding: 12px 50px 11px 20px;
+    line-height: 26px;
+    letter-spacing: -0.4px;
+    border: 1px solid #ebebeb;
+    border-width: 1px 0 0 0;
+}
+
+.subscribing_number{
+    float: right;
+    position: relative;
+    left: -18px;
+    color: #3a67ea;
+    font-weight: bold;
+}
+
+.news_setting_background{
+    position: absolute;
+    top: 11px;
+    right: 15px;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.news_setting{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -248px -391px;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    margin: auto;
+    margin: 0 auto;
+    top: 6.5px;
+}
+
+.korean_economy_news{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+}
+
+.korean_economy_TV{
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.korean_economy_time_circle{
+    width: 3px;
+    height: 3px;
+    background-color: #ebebeb;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 50%;
+    float: top;
+}
+
+.korean_economy_time{
+    color: #606060;
+    font-size: 13.65px;
+}
+
+.korean_economy_cancel_background{
+    width: 22px;
+    height: 22px;
+    position: relative;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: rgba(128,134,140,.45);
+}
+
+.korean_economy_cancel{
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -412px -284px;
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.korean_economy_total{
+    display: flex;
+    margin-top: 14px;
+}
+
+.korean_economy_main_news{
+    width: 201px;
+    margin-right: 20px;
+}
+
+.korean_economy_main_news_image{
+    width: 201px;
+    height: 134px;
+    margin-right: 20px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    border: 1px solid rgba(0,0,0,.06);
+    border-radius: 4px;
+    perspective: 1px;
+}
+
+.korean_economy_main_news_title{
+    position: relative;
+    margin-top: 10px;
+}
+
+.korean_economy_sub_news{
+    margin: 0;
+    padding: 0;
+}
+
+.sub_news_1{
+    padding-right: 10px;
+    font-size: 14.7px;
+}
+
+.sub_news_2{
+    padding-right: 10px;
+    margin-top: 13px;
+    font-size: 14.7px;
+}
+
+.another_company{
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 10px 0 11px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.left_arrow_background{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #dadcdf;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    top: -7px;
+    border-radius: 50%;
+}
+
+.left_arrow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -412px 0px;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 12px;
+    margin: auto;
+    transform: rotate(180deg);
+}
+
+.another_company_selection{
+    top: -8.5px;
+    position: relative;
+    color: #606060;
+    display: inline-block;
+    min-width: 156px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    line-height: 35px;
+    font-weight: 600;
+    vertical-align: top;
+}
+
+.another_company_select{
+    display: inline-block;
+    position: relative;
+    padding-right: 4px;
+    font-size: 13.65px;
+}
+
+.another_company_list{
+    display: inline-block;
+    position: relative;
+    color: #3a67ea;
+}
+
+
+.page{
+    display: inline-block;
+    font-size: 13.65px;
+    color: #60606080;
+}
+
+.current{
+    display: inline-block;
+    color: #606060;
+}
+
+.right_arrow_background{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #dadcdf;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    top: -7px;
+}
+
+.right_arrow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -412px 0px;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 12px;
+    margin: auto;
+}
+
+.contents_page_box{
+    position: relative;
+    display: inline-block;
+    padding: 5px 9px 0 20px;
+    float: right;
+}
+
+.contents_page{
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -191px -368px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.contents_menu_box{
+    position: relative;
+    display: inline-block;
+    padding: 5px 20px 0 9px;
+    float: right;
+}
+
+.contents_menu{
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -296px -368px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.right_side{
+    position: absolute;
+    display: inline-block;
+    float: right;
+    width: 420px;
+    margin-left: 27px;
+}
+
+.login_box{
+    background-color: #fff;
+    position: relative;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 163.4px;
+    border: 1px solid #dadcdf;
+    box-shadow: 0 0 0 1px #e3e5e8,
+}
+
+.login_padding{
+    padding: 21px 20px 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.login_banner{
+    display: block;
+    margin-top: 13px;
+    padding: 17px 0;
+    border: 1px solid rgba(0,0,0,.06);
+    border-radius: 4px;
+    background-color: #03c75a;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(3,199,90,.12);
+    box-shadow: 0 2px 4px 0 rgba(3,199,90,.12);
+    text-decoration: none;
+    color: #fff;
+}
+
+.naver{
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -120px -166px;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 14px;
+    display: inline-block;
+    margin: 3px 8px 0 0;
+    vertical-align: top;
+}
+
+.find{
+    display: inline-block;
+    color: #606060;
+    margin-top: 16px;
+    font-size: 13.65px;
+}
+
+.bar{
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #d3d5d7;
+    margin: 4px 12px 0;
+    vertical-align: top;
+}
+
+.right_ad{
+    margin-top: 16px;
+}
+
+.right_ad_image{
+    width: 420px;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    border-radius: 8px;
+}
+
+.weather_box{
+    margin-top: 16px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid #dadcdf;
+}
+
+.weather_padding{
+    padding: 0 18px;
+}
+
+.weather_top{
+    position: relative;
+    display: flex;
+    padding: 6px 0;
+    line-height: 40px;
+}
+
+.weather{
+    color: #080808;
+    display: inline-block;
+    padding-right: 7px;
+    font-size: 15.75px;
+    font-weight: 800;
+    vertical-align: top;
+}
+
+.weather_compare{
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    color: #606060;
+    display: inline-block;
+    min-width: 75px;
+    height: 26px;
+    margin-top: 7px;
+    padding: 0 10px 0 7px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 11.55px;
+    line-height: 25px;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.weather_icon{
+    display: inline-block;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.30918f90.png);
+    background-size: 422px 405px;
+    background-position: -352px -391px;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    margin: 6px 2px 0 0;
+    vertical-align: top;
+}
+
+.location{
+    color: #606060;
+    flex: none;
+    margin-left: auto;
+    font-size: 13.65px;
+    margin: 0 0 0 165px;
+}
+
+.weather_under{
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    display: flex;
+}
+
+.main_weather{
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+    margin: 20px 0 18px;
+}
+
+.weather_icon_locate{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+}
+
+.weather_icon_position{
+    display: inline-block;
+    width: 86px;
+    height: 86px;
+    margin-right: 4px;
+}
+
+.weather_icon_main{
+    display: inline-block;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_weather.11654bc0.png);
+    background-size: 641px 587px;
+    background-position: -87px 0px;
+    background-repeat: no-repeat;
+    width: 86px;
+    height: 86px;
+}
+
+.weather_temperature{
+    display: inline-block;
+    position: relative;
+    min-width: 0;
+    font-size: 40.95px;
+    line-height: 48px;
+    letter-spacing: -2px;
+}
+
+.weather_in_korean{
+    padding-left: 5px;
+    font-size: 14.7px;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+}
+
+.daily_weather{
+    position: relative;
+    margin-top: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.lowest_temparature{
+    color: #3172e7;
+    position: relative;
+    display: inline-block;
+}
+
+.bar_1{
+    display: inline-block;
+    position: relative;
+    width: 1px;
+    height: 11px;
+    background-color: #d3d5d7;
+    margin: 0 5px 0 3px;
+    -webkit-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+}
+
+.highest_temparature{
+    color: #cd3534;
+    position: relative;
+    display: inline-block;
+}
+
+.daily_air{
+    display: block;
+    margin-top: 6px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.micro{
+    position: relative;
+    display: inline-block;
+    font-size: 13.65px;
+    vertical-align: top;
+}
+
+.green_micro{
+    position: relative;
+    display: inline-block;
+    padding-left: 4px;
+    color: #02c73c;
+}
+
+.dot{
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background-color: #d3d5d7;
+    margin: 8px 6px 0;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.blue_micro{
+    position: relative;
+    display: inline-block;
+    color: #32a1ff;
+}
+
+.time_weather{
+    margin-left: 24px;
+    position: relative;
+    flex: 1;
+    min-width: 0;
+    margin: 20px 0 18px;
+}
+
+.weather_graph{
+    position: absolute;
+    top: 30px;
+    left: 5px;
+}
+.time_weather_graph{
+    display: flex;
+    justify-content: space-between;
+    height: 143px;
+    position: relative;
+}
+
+.each_time{
+    position: relative;
+    width: 32px;
+    text-align: center;
+}
+
+.time_bold{
+    position: absolute;
+    color: #101010;
+    font-weight: bold;
+    font-size: 13.65px;
+    top: 125px;
+    right: 0;
+    left: 0;
+}
+
+.night_weather{
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_weather.11654bc0.png);
+    background-size: 641px 587px;
+    background-position: -33px -522px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 95px;
+}
+
+
+.weather_bar{
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background-color: #d3d5d7;
+    margin: 4px 12px 0;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+.weather_time{
+    position: absolute;
+    color: #606060;
+    font-size: 13.65px;
+    top: 125px;
+    right:0;
+    left: 0;
+}
+
+.time_temparature_17{
+    margin-top:31px;
+    top: 0;
+    right: 0;
+    bottom: 60px;
+    left: 0;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.sun{
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_weather.11654bc0.png);
+    background-size: 641px 587px;
+    background-position: 0px -522px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 95px;
+}
+
+.time_temparature_21{
+    margin-top:20.5px;
+    top: 0;
+    right: 0;
+    bottom: 60px;
+    left: 0;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.time_temparature_25{
+    top: 0;
+    right: 0;
+    bottom: 60px;
+    left: 0;
+    font-size: 14px;
+    line-height: 16px;
+}
+.container_box{
+    width: 830px;
+    position: relative;
+    border-radius: 8px;
+    display: block;
+    top: 150px;
+    border: 1px solid #d3d5d7;;
+}
+
+.container_menu{
+    display: flex;
+    padding: 19px 20px 16px;
+}
+
+.container_shopping{
+    font-size: 16.8px;
+    font-weight: bold;
+    color: #080808;
+    position: relative;
+    display: inline-block;
+}
+
+.container_bar{
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 13px;
+    width: 1px;
+    height: 15px;
+    background-color: #d3d5d7;
+    transform: skewX(-15deg)
+}
+
+.container_other{
+    padding-left: 26px;
+    position: relative;
+    display: inline-block;
+    line-height: 23px;
+    vertical-align: top;
+    color: #08080880;
+    font-size: 16.8px;
+    font-weight: 800;
+}
+
+.container_other_name{
+    margin-left: 5px;
+}
+
+.today_pick{
+    display: flex;
+    margin: 0 20px;
+}
+
+.today_pick_box{
+    background-color: #f5f7f8;
+    display: flex;
+    width: 668px;
+    padding: 15px 20px 14px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    line-height: 21px;
+    font-weight: 700;
+}
+
+.today_discount{
+    position: relative;
+    padding-right: 19px;
+    font-weight: 700;
+}
+
+.today_dot{
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 3px;
+    height: 3px;
+    background-color: #d3d5d7;
+    border-radius: 50%;
+}
+
+.today_ad{
+    flex: 1 1;
+    display: flex;
+    min-width: 0;
+}
+
+.today_ad_image{
+    display: inline-block;
+    height: 13px;
+    padding-top: 4px;
+    line-height: 13px;
+    vertical-align: top;
+}
+
+.today_ad_ment{
+    margin-left: 8px;
+    font-size: 14.7px;
+    color: #404040;
+    font-weight: 400;
+}
+
+.purple_ment{
+    color: #9858f5;
+    display: inline-block;
+}

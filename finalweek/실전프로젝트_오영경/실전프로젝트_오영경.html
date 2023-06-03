@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 클론코딩</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="application/javascript">
+      function draw() {
+        var canvas = document.getElementById("canvas");
+        if (canvas.getContext) {
+          var ctx = canvas.getContext("2d");
+          ctx.strokeStyle="#d3d5d7";
+            ctx.lineWidth=2;
+            ctx.beginPath();
+            ctx.moveTo(0, 37);
+            ctx.lineTo(90,37);
+            ctx.lineTo(162,0);
+            ctx.lineTo(180,0);
+            ctx.stroke();
+          
+        }
+      }
+    </script>
+</head>
+<body onload="draw()">
+    <div class="header_wrapper">
+        <div class="top_search_wrapper">
+            <div class="special_logo">
+                <div class="search_area">
+                    <div class="special_logo_input">
+                        <div class="link_logo">
+                            <img src="https://s.pstatic.net/static/www/mobile/edit/20230516_0/upload_1684217675277OZzsu.gif" width="58px" height="58px"  alt="NAVER">
+                        </div>
+                    </div>
+
+                    <div class="search_box">
+                        <div class="keyboard">
+                            <div class="keyboard_icon"></div>
+                        </div>
+                        <div class="arrow">
+                            <div class="arrow_icon"></div>
+                        </div>
+                    </div>
+
+                    <div class="submit">
+                        <div class="submit_icon"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="new_image">
+                <img src="https://s.pstatic.net/static/www/mobile/edit/20230517_1095/upload_1684316169642tHsLu.png" width="220" height="60">
+            </div>
+
+            <div class="top_menu">
+                <div class="top_menu_icon"></div>
+            </div>
+
+            <div class="naver_pay">
+                <div class="naver_pay_icon"></div>
+            </div>
+            
+            <div class="notify">
+                <div class="notify_icon"></div>
+            </div>
+
+            <div class="short_cut_area">
+                <div class="short_cut_list">
+                    <div class="mail">
+                        <div class="mail_background">
+                            <div class="mail_icon"></div>
+                        </div>
+                        <div class="service_name_mail"> 메일 </div>
+                    </div>
+                    
+                    
+                    <div class="cafe">
+                        <div class="cafe_background">
+                            <div class="cafe_icon"></div>
+                        </div>
+                        <div class="service_name_cafe"> 카페 </div>
+                    </div>
+
+                    <div class="blog">
+                        <div class="blog_background">
+                            <div class="blog_icon"></div>
+                        </div>
+                        <div class="service_name_blog"> 블로그 </div>
+                    </div>
+
+                    <div class="shopping">
+                        <div class="shopping_background">
+                            <div class="shopping_icon"></div>
+                        </div>
+                        <div class="service_name_shopping"> 쇼핑 </div>
+                    </div>
+
+                    <div class="news">
+                        <div class="news_background">
+                            <div class="news_icon"></civ>
+                        </div>
+                        <div class="service_name_news"> 뉴스 </div>
+                    </div>
+
+                    <div class="finance">
+                        <div class="finance_background">
+                            <div class="finance_icon"></div>
+                        </div>
+                        <div class="service_name_finance"> 증권 </div>
+                    </div>
+
+                    <div class="land">
+                        <div class="land_background">
+                            <div class="land_icon"></div>
+                        </div>
+                        <div class="service_name_land"> 부동산 </div>
+                    </div>
+
+                    <div class="map">
+                        <div class="map_background">
+                            <div class="map_icon"></div>
+                        </div>
+                        <div class="service_name_map"> 지도 </div>
+                    </div>
+
+                    <div class="webtoon">
+                        <div class="webtoon_background">
+                            <div class="webtoon_icon"></div>
+                        </div>
+
+                        <div class="service_name_webtoon"> 웹툰 </div>
+                    </div>
+
+                    <div class="more_menu">
+                        <div class="more_menu_background">
+                            <div class="more_menu_icon"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="root">
+            <div class="left_side">
+                <div class="ad">
+                    <img src="https://ssl.pstatic.net/melona/libs/1446/1446906/d3f2b17ee55df0a27e0e_20230523135137412.jpg" width="830" height="130" alt>
+                </div>
+
+                <div class="news_stand">
+                    <div class="news_header">
+                        <div class="news_module">
+                            <div class="news_stand_menu"> 뉴스스탠드 </div>
+                            <div class="news_stand_check"></div>
+                            <div class="news_stand_editing"> 언론사편집 </div>
+                            <div class="news_stand_enter"> 엔터 </div>
+                            <div class="news_stand_sports"> 스포츠 </div>
+                            <div class="news_stand_economy"> 경제 </div>
+                            <div class="news_stand_bar1"> | </div>
+                            <div class="news_stand_bar2"> | </div>
+                            <div class="news_stand_bar3"> | </div>
+                        </div>
+                    </div>
+                    <div class="subscribe_news">
+                        <div class="subscribe_company"> 구독 언론사 </div>
+                        <div class="subscribe_arrow"></div>
+                        <div class="subscribe_bar"> | </div>
+                        <div class="news_company"> 연합뉴스 </div>
+                        <div class="news_circle"></div>
+                        <div class="news_title"> 국회 윤리 특위, 김남국 징계안 상정...여야'조속 결론'한목...</div>
+                    </div>
+                    <div class="news_box">
+                        <div class="subscribe_contents">
+                            <div class="subscribe_box">
+                                <div class="subscribe_chart">
+                                    <div class="my_subscribe">
+                                        <div class="korean_economy">한국경제TV</div>
+                                        <div class="news_arrow"></div>
+                                    </div>
+                                </div>
+                                <div class="subscribing">구독중
+                                    <div class="subscribing_number">1</div>
+                                    <div class="news_setting_background">
+                                        <div class="news_setting"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="korean_economy_news">
+                            <div class="korean_economy_TV">
+                                <div class="korean_economy_logo">
+                                    <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/215.png" width="atuo" height="20" alt="한국경제TV">
+                                </div>
+                                <div class="korean_economy_time_circle"></div>
+                                <div class="korean_economy_time"> 5월 30일 16:00 직접 편집</div>
+                                <div class="korean_economy_cancel_background">
+                                    <div class="korean_economy_cancel"></div>
+                                </div>
+                            </div>
+                            <div class="korean_economy_total">
+                                <div class="korean_economy_main_news">
+                                    <div class="korean_economy_main_news_image">
+                                        <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fnewsstand%2F2023%2F0530%2Farticle_img%2Fnew_main%2F9014%2F160200_001.jpg%22&type=nf312_208&service=navermain" width="201" height="134" alt="15분 만에 '싼 대출' 갈아타기…이렇게 하면 됩니다">
+                                    </div>       
+                                    <div class="korean_economy_main_news_title">
+                                        15분 만에 '싼 대출' 갈아타기…이렇게 하면 됩니다
+                                    </div>
+                                </div>
+                                <div class="korean_economy_sub_news">
+                                    <div class="sub_news_1"> '돈나무 언니'도 손사레...비싸도 너무 비싼 '이 주식' </div>
+                                    <div class="sub_news_2"> "최첨단 차량 체험·시승한다"…현대차 '2,500억' 통큰 투자 </div>
+                                    <div class="sub_news_2">단순 두통으로 이것 찍으면…'대략난감'</div>
+                                    <div class="sub_news_2">전세사기 매물, 이 앱 하나로 걸러낸다</div>
+                                    <div class="sub_news_2">무더기로 출몰한 날벌레…신축 아파트만 노린다는데</div>
+                                    <div class="sub_news_2">"가상 아이템 사면 돈 번다더니"…4300억 뜯겼다</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="another_company">
+                        <div class="left_arrow_background">
+                            <div class="left_arrow"></div>
+                        </div>
+                        <div class="another_company_selection"> 
+                            <div class="another_company_select">
+                                <div class="another_company_list"> 다른 언론사 뉴스 </div>
+                                더보기
+                            </div>
+                            <div class="page">
+                                <div class="current"> 1</div>
+                                /1
+                            </div>
+                        </div>
+                        <div class="right_arrow_background">
+                            <div class="right_arrow"></div>
+                        </div>
+                        <div class="contents_menu_box">
+                            <div class="contents_menu"></div>
+                        </div>
+                        <div class="contents_page_box">
+                            <div class="contents_page"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container_box">
+                    <div class="container_menu">
+                        <div class="container_menu_box">
+                            <div class="container_shopping"> 쇼핑 </div>
+                            <div class="container_other">
+                                <div class="container_bar"></div>
+                                <div class="container_other_name">맨즈</div>
+                            </div>
+                            <div class="container_other">
+                                <div class="container_bar"></div>
+                                <div class="container_other_name">원쁠딜</div>
+                            </div>
+                            <div class="container_other">
+                                <div class="container_bar"></div>
+                                <div class="container_other_name">쇼핑라이브</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="today_pick">
+                        <div class="today_pick_box">
+                            <div class="today_discount">
+                                오늘의 혜택
+                                <div class="today_dot"></div>
+                            </div>
+                            <div class="today_ad">
+                                <div calss="today_ad_image">
+                                    <img src="	https://s.pstatic.net/shopping.phinf/20230525_25/18cc28fd-0ff5-4532-8ec6-d7c68273a1f2.jpg" height="13">
+                                </div>
+                                <div class="today_ad_ment">
+                                    일주일간! SSG 명품의류부터 잡화까지
+                                    <div class="purple_ment">역시즌 할인 특가</div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right_side">
+                <div class="login_box">
+                    <div class="login_padding">
+                        <div class="login_safely"> 네이버를 더 안전하고 편리하게 이용하세요 </div>
+                        <div class="login_banner">
+                            <div class="naver"></div>
+                        </div>
+                        <div class="find">아이디 찾기</div>
+                        <div class="find">
+                            <div class="bar"></div>
+                            비밀번호 찾기
+                        </div>
+                        <div class="find">
+                            <div class="bar"></div>
+                            회원가입
+                        </div>
+                    </div>
+                </div>
+                <div class="right_ad">
+                    <div class="right_ad_image">
+                        <img src="https://ssl.pstatic.net/melona/libs/1447/1447104/43bdf4a364b40e16faa3_20230522150736594_1.jpg" width="420" hegith="240" alt>
+                    </div>
+                </div>
+                <div class="weather_box">
+                    <div class="weather_padding">
+                        <div class="weather_top">
+                            <div class="weather">날씨</div>
+                            <div class="weather_compare">
+                                <div class="weather_icon"></div>
+                                예보 비교
+                            </div>
+                            <div class="location">수원시 원천동</div>
+                        </div>
+                        <div class="weather_under">
+                            <div class="main_weather">
+                                <div class="weather_icon_locate">
+                                    <div class="weather_icon_position">
+                                        <div class="weather_icon_main"></div>
+                                    </div>
+                                    <div class="weather_temperature">
+                                        20.6°
+                                        <div class="weather_in_korean"> 맑음 </div>
+                                    </div>
+                                </div>
+                                <div class="daily_weather">
+                                    <div class="lowest_temparature"> 17°</div>
+                                    <div class="bar_1"></div>
+                                    <div class="highest_temparature">25°</div>
+                                </div>
+                                <div class="daily_air">
+                                    <div class="micro">
+                                        미세
+                                        <div class="green_micro"> 보통 </div>
+                                    </div>
+                                    <div class="micro">
+                                        <div class="dot"></div>
+                                        초미세
+                                        <div class="blue_micro"> 좋음 </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="time_weather">
+                                <div class="weather_graph">
+                                    <canvas id="canvas" width="180" height="37"></canvas>
+                                </div>
+                                <div class="time_weather_graph">
+                                    <div class="each_time">
+                                        <div class="time_bold">02시</div>
+                                        <div class="night_weather"></div>
+                                        <div class="time_temparature_17">
+                                            17°
+                                            <div class="weather_bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="each_time">
+                                        <div class="weather_time"> 04 </div>
+                                        <div class="night_weather"></div>
+                                        <div class="time_temparature_17">
+                                            17°
+                                            <div class="weather_bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="each_time">
+                                        <div class="weather_time">06</div>
+                                        <div class="night_weather"></div>
+                                        <div class="time_temparature_17">
+                                            17°
+                                            <div class="weather_bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="each_time">
+                                        <div class="weather_time">08</div>
+                                        <div class="sun"></div>
+                                        <div class="time_temparature_21">
+                                            21°
+                                            <div class="weather_bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="each_time">
+                                        <div class="weather_time">10</div>
+                                        <div class="sun"></div>
+                                        <div class="time_temparature_25">
+                                            25°
+                                            <div class="weather_bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+       
+</body>
+</html>
