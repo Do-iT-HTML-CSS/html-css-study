@@ -1,0 +1,47 @@
+.header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contentbar{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-right: 200px;
+}
+
+content{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.banner{
+    text-align: center;
+}
+
+.News {
+    display: flex;
+    justify-content: space-between;
+}
+
+.News-item {
+    width: calc(25% - 10px);
+    margin-right: 10px;
+
+}
+
+.News-item:last-child {
+    margin-right: 0;
+}
+
+.News-item img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.new{
+    text-align: center;
+}
