@@ -1,0 +1,73 @@
+p {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #202124;
+}
+
+.googlelogo {
+    text-align: center;
+}
+
+.middle_box {
+    margin: 144px;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    max-width: 584px;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    margin: 25px 0 25px 0;
+    padding: 0 15px 0 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    background-color: #f8f9fa;
+    min-width: 54px;
+    height: 36px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0 16px 0 16px;
+}
+
+button:focus {
+    outline: 0.5px solid lightskyblue;
+}
+
+button:hover {
+    border: 1px soli #dfe1e5;
+}
+
+.a {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    background-color: #f8f9fa;
+}
+
+.b {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    background-color: #f8f9fa;
+}
+
+.c {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #70757a;
+}
