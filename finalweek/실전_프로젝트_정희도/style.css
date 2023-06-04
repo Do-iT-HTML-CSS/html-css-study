@@ -1,0 +1,163 @@
+.header 
+{
+    width: 100%;
+    height: 76.8px;
+    border-bottom: 1.067px;
+    /* border: 1px solid black; */
+    margin: 0;
+    border-bottom: solid 2px #eee;
+}
+
+.top 
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    height: 20.8px;
+    /* border: 1px solid red; */
+}
+
+.top-in 
+{
+    width: 1140px;
+    height: 20.8px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* border: 1px solid black; */
+}
+
+.bottom 
+{
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    /* border: 1px solid blue; */
+}
+
+.bottom-in
+{
+    width: 1140px;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+.blank 
+{
+    padding: 9px 25px;
+}
+
+.txt 
+{
+    padding-bottom: 15px;
+    text-align: right;
+    color: #7c8082;
+    font-size: 11px;
+}
+
+.content 
+{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.temp1
+{
+    width: 262.5px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+}
+
+.temp2
+{
+    width: 260.3px;
+    height: 88px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border: solid 1px #555;
+}
+
+#logo
+{
+    position: relative;
+    margin-left: -15px;
+    bottom: 25px;
+    top: -25px;
+}
+
+#size 
+{
+    width: 740.75px;
+    height: 39.067px;
+    margin-left: 400px;
+    position: static;
+}
+
+body {
+    color: #333;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li 
+{
+    float: left;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+h2.title-v2 {
+    color: #555;
+    position: relative;
+    margin-bottom: 30px;
+}
+body, input, button, select, textarea, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .purchase span {
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans CJK KR', 'Noto Sans KR', '나눔바른고딕', '나눔고딕', '맑은고딕', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #585f69;
+    margin-top: 5px;
+    text-shadow: none;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    font-size: 24px;
+    line-height: 33px;
+}
+
+p 
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #bbb;
+    font-size: 16px;
+    text-transform: uppercase;
+}
